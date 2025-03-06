@@ -1,0 +1,23 @@
+# 📂 Исключаем временные файлы и пароли
+.env
+config.json
+secrets.json
+private_key.pem
+db.sqlite3
+
+# 📂 Node.js
+node_modules/
+npm-debug.log*
+
+# �� Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 📂 Docker и кэш
+docker-compose.override.yml
+.env.docker
+db_data/
+build/
+dist/

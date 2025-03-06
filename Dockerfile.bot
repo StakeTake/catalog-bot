@@ -1,0 +1,16 @@
+# Dockerfile.bot (служит для создания как раз image)
+FROM python:3.9-slim
+
+WORKDIR /app
+
+# Копируем файлы с зависимостями
+COPY requirements.txt ./
+
+# Устанавливаем зависимости
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Копируем сам скрипт бота
+COPY katalog.py ./
+
+# Запускаем бот
+CMD ["python", "katalog.py"]

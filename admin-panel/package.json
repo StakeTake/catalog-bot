@@ -1,0 +1,19 @@
+{
+    "name": "admin-panel",
+    "version": "1.0.0",
+    "scripts": {
+      "dev": "next dev -p 3001",
+      "build": "next build",
+      "start": "next start -p 3001"
+    },
+    "dependencies": {
+      "next": "latest",
+      "react": "latest",
+      "react-dom": "latest",
+      "tailwindcss": "^3.3.0",
+      "postcss": "^8.4.0",
+      "autoprefixer": "^10.4.0",
+      "daisyui": "^3.0.0"
+    }
+  }
+  

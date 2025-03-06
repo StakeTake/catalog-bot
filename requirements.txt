@@ -1,0 +1,12 @@
+# requirements.txt
+
+fastapi
+uvicorn
+sqlalchemy
+pydantic
+python-telegram-bot
+requests
+python-multipart
+passlib[bcrypt]
+python-jose
+python-dotenv
